@@ -1,0 +1,19 @@
+# Ignore build directory
+build/
+
+# Ignore user-specific files
+*.user
+
+# Ignore temporary and backup files
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.log
+*.bak
+*~
+
+# Ignore system files
+.DS_Store
+Thumbs.db
