@@ -11,7 +11,12 @@ qt_add_executable(IWannatakeABus
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    res.qrc
 )
+
+qt_add_resources(IWannatakeABus_RESOURCES res.qrc)
+
+target_sources(IWannatakeABus PRIVATE ${IWannatakeABus_RESOURCES})
 
 target_link_libraries(IWannatakeABus
     PRIVATE
