@@ -10,16 +10,16 @@ int main(int argc, char *argv[])
     MainWindow w;
 
     // 激情在燃烧
-    QPixmap pixmap(":/image/kuchen.png");
-    pixmap = pixmap.scaled(300, 300, Qt::KeepAspectRatio, Qt::SmoothTransformation);
-    QSplashScreen splash(pixmap);
-    splash.show();
+    // QPixmap pixmap(":/image/kuchen.png");
+    // pixmap = pixmap.scaled(300, 300, Qt::KeepAspectRatio, Qt::SmoothTransformation);
+    // QSplashScreen splash(pixmap);
+    // splash.show();
 
 
-    QTimer::singleShot(3000, [&](){
-        w.show();
-        splash.finish(&w);
-    });
-
+    // QTimer::singleShot(3000, [&](){
+    //     w.show();
+    //     splash.finish(&w);
+    // });
+    w.show();
     return a.exec();
 }

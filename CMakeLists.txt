@@ -12,9 +12,17 @@ qt_add_executable(IWannatakeABus
     mainwindow.h
     mainwindow.ui
     res.qrc
+    global.h
+    global.cpp
+    zoomablegraphicsview.h
+    zoomablegraphicsview.cpp
 )
 
 qt_add_resources(IWannatakeABus_RESOURCES res.qrc)
+
+INCLUDE_DIRECTORIES(
+    ${PROJECT_SOURCE_DIR}
+)
 
 target_sources(IWannatakeABus PRIVATE ${IWannatakeABus_RESOURCES})
 

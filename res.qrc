@@ -1,5 +1,19 @@
 <RCC>
     <qresource prefix="/">
         <file>image/kuchen.png</file>
+        <file>image/add.png</file>
+        <file>image/all.png</file>
+        <file>image/connect.png</file>
+        <file>image/enlarge.png</file>
+        <file>image/help.png</file>
+        <file>image/map.png</file>
+        <file>image/metro-shanghai.png</file>
+        <file>image/mouse.png</file>
+        <file>image/qt.png</file>
+        <file>image/query.png</file>
+        <file>image/shrink.png</file>
+        <file>image/station.png</file>
+        <file>image/subway.png</file>
+        <file>image/text.png</file>
     </qresource>
 </RCC>
